@@ -1,0 +1,67 @@
+Volatility 3 Framework 2.4.1
+
+PID	Process	Args
+
+4	System	Required memory at 0x20 is not valid (process exited?)
+260	smss.exe	\SystemRoot\System32\smss.exe
+348	csrss.exe	%SystemRoot%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=winsrv:ConServerDllInitialization,2 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16
+388	csrss.exe	%SystemRoot%\system32\csrss.exe ObjectDirectory=\Windows SharedSection=1024,20480,768 Windows=On SubSystemType=Windows ServerDll=basesrv,1 ServerDll=winsrv:UserServerDllInitialization,3 ServerDll=winsrv:ConServerDllInitialization,2 ServerDll=sxssrv,4 ProfileControl=Off MaxRequestThreads=16
+396	wininit.exe	wininit.exe
+432	winlogon.exe	winlogon.exe
+492	services.exe	C:\Windows\system32\services.exe
+500	lsass.exe	C:\Windows\system32\lsass.exe
+508	lsm.exe	C:\Windows\system32\lsm.exe
+604	svchost.exe	C:\Windows\system32\svchost.exe -k DcomLaunch
+668	vmacthlp.exe	"C:\Program Files\VMware\VMware Tools\vmacthlp.exe"
+712	svchost.exe	C:\Windows\system32\svchost.exe -k RPCSS
+808	svchost.exe	C:\Windows\System32\svchost.exe -k LocalServiceNetworkRestricted
+844	svchost.exe	C:\Windows\System32\svchost.exe -k LocalSystemNetworkRestricted
+868	svchost.exe	C:\Windows\system32\svchost.exe -k netsvcs
+960	audiodg.exe	C:\Windows\system32\AUDIODG.EXE 0x2fc
+1012	svchost.exe	C:\Windows\system32\svchost.exe -k LocalService
+620	svchost.exe	C:\Windows\system32\svchost.exe -k NetworkService
+1120	spoolsv.exe	C:\Windows\System32\spoolsv.exe
+1164	svchost.exe	C:\Windows\system32\svchost.exe -k LocalServiceNoNetwork
+1356	VGAuthService.	"C:\Program Files\VMware\VMware Tools\VMware VGAuth\VGAuthService.exe"
+1428	vmtoolsd.exe	"C:\Program Files\VMware\VMware Tools\vmtoolsd.exe"
+1800	WmiPrvSE.exe	C:\Windows\system32\wbem\wmiprvse.exe
+1948	svchost.exe	C:\Windows\system32\svchost.exe -k bthsvcs
+1324	dllhost.exe	C:\Windows\system32\dllhost.exe /Processid:{02D4B3F1-FD88-11D1-960D-00805FC79235}
+1436	msdtc.exe	C:\Windows\System32\msdtc.exe
+2136	WmiPrvSE.exe	C:\Windows\system32\wbem\wmiprvse.exe
+2344	taskhost.exe	"taskhost.exe"
+2500	sppsvc.exe	C:\Windows\system32\sppsvc.exe
+2704	dwm.exe	"C:\Windows\system32\Dwm.exe"
+2728	explorer.exe	C:\Windows\Explorer.EXE
+2804	vmtoolsd.exe	"C:\Program Files\VMware\VMware Tools\vmtoolsd.exe" -n vmusr
+2836	BitTorrent.exe	"C:\Users\Rick\AppData\Roaming\BitTorrent\BitTorrent.exe"  /MINIMIZED
+2844	WebCompanion.e	Required memory at 0x7efdf020 is not valid (process exited?)
+3064	SearchIndexer.	C:\Windows\system32\SearchIndexer.exe /Embedding
+2308	bittorrentie.e	"C:\Users\Rick\AppData\Roaming\BitTorrent\updates\7.10.3_44495\bittorrentie.exe" BitTorrent_2836_00313D08_590648902 BT4823DF041B09 BitTorrent
+2624	bittorrentie.e	"C:\Users\Rick\AppData\Roaming\BitTorrent\updates\7.10.3_44495\bittorrentie.exe" BitTorrent_2836_00313978_1933444659 BT4823DF041B09 BitTorrent
+708	LunarMS.exe	"C:\Nexon\MapleStory\LunarMS.exe" 
+724	PresentationFo	C:\Windows\Microsoft.Net\Framework64\v3.0\WPF\PresentationFontCache.exe
+412	mscorsvw.exe	C:\Windows\Microsoft.NET\Framework\v4.0.30319\mscorsvw.exe
+164	svchost.exe	C:\Windows\system32\svchost.exe -k LocalServiceAndNoImpersonation
+3124	mscorsvw.exe	C:\Windows\Microsoft.NET\Framework64\v4.0.30319\mscorsvw.exe
+3196	svchost.exe	C:\Windows\System32\svchost.exe -k secsvcs
+4076	chrome.exe	"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" 
+4084	chrome.exe	"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --type=crashpad-handler "--user-data-dir=C:\Users\Rick\AppData\Local\Google\Chrome\User Data" /prefetch:7 --monitor-self-annotation=ptype=crashpad-handler "--database=C:\Users\Rick\AppData\Local\Google\Chrome\User Data\Crashpad" "--metrics-dir=C:\Users\Rick\AppData\Local\Google\Chrome\User Data" --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=plat=Win64 --annotation=prod=Chrome --annotation=ver=68.0.3440.84 --initial-client-data=0x7c,0x80,0x84,0x78,0x88,0x7feeb3324d0,0x7feeb3324e0,0x7feeb3324f0
+576	chrome.exe	"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --type=watcher --main-thread-id=4080 --on-initialized-event-handle=304 --parent-handle=308 /prefetch:6
+1808	chrome.exe	"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --type=gpu-process --field-trial-handle=984,15358569600588498425,3475374789430647391,131072 --gpu-preferences=KAAAAAAAAACAAwBAAQAAAAAAAAAAAGAAEAAAAAAAAAAAAAAAAAAAACgAAAAEAAAAIAAAAAAAAAAoAAAAAAAAADAAAAAAAAAAOAAAAAAAAAAQAAAAAAAAAAAAAAAKAAAAEAAAAAAAAAAAAAAACwAAABAAAAAAAAAAAQAAAAoAAAAQAAAAAAAAAAEAAAALAAAA --service-request-channel-token=4939AD179421E7F7FF934CA7C25FCD34 --mojo-platform-channel-handle=1004 --ignored=" --type=renderer " /prefetch:2
+3924	chrome.exe	"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --type=renderer --field-trial-handle=984,15358569600588498425,3475374789430647391,131072 --service-pipe-token=BB216EAECD5332095D1836CB17604E02 --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --device-scale-factor=1 --num-raster-threads=1 --service-request-channel-token=BB216EAECD5332095D1836CB17604E02 --renderer-client-id=9 --mojo-platform-channel-handle=2440 /prefetch:1
+2748	chrome.exe	"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --type=renderer --field-trial-handle=984,15358569600588498425,3475374789430647391,131072 --service-pipe-token=5B96B12CED256E93CD66ABC8626426FB --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --device-scale-factor=1 --num-raster-threads=1 --service-request-channel-token=5B96B12CED256E93CD66ABC8626426FB --renderer-client-id=22 --mojo-platform-channel-handle=2104 /prefetch:1
+3820	Rick And Morty	"C:\Torrents\Rick And Morty season 1 download.exe" 
+3720	vmware-tray.ex	"C:\Users\Rick\AppData\Local\Temp\RarSFX0\vmware-tray.exe" 
+3880	WebCompanionIn	"C:\Program Files (x86)\Lavasoft\Web Companion\Application\WebCompanionInstaller.exe" --update --prod --partner=BT170701 --version=4.3.1908.3686
+3648	chrome.exe	"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --type=renderer --field-trial-handle=984,15358569600588498425,3475374789430647391,131072 --service-pipe-token=66BB0CC3FE10242BC701AB87A5940738 --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --device-scale-factor=1 --num-raster-threads=1 --service-request-channel-token=66BB0CC3FE10242BC701AB87A5940738 --renderer-client-id=30 --mojo-platform-channel-handle=4516 /prefetch:1
+1796	chrome.exe	"C:\Program Files (x86)\Google\Chrome\Application\chrome.exe" --type=renderer --field-trial-handle=984,15358569600588498425,3475374789430647391,131072 --service-pipe-token=86C637812F74263DD98834CC0FE01CE7 --lang=en-US --enable-offline-auto-reload --enable-offline-auto-reload-visible-only --device-scale-factor=1 --num-raster-threads=1 --service-request-channel-token=86C637812F74263DD98834CC0FE01CE7 --renderer-client-id=31 --mojo-platform-channel-handle=4412 /prefetch:1
+3208	sc.exe	Required memory at 0x7efdf020 is not valid (process exited?)
+452	sc.exe	Required memory at 0x7efdf020 is not valid (process exited?)
+3504	sc.exe	Required memory at 0x7efdf020 is not valid (process exited?)
+2028	sc.exe	Required memory at 0x7efdf020 is not valid (process exited?)
+3496	Lavasoft.WCAss	"C:\Program Files (x86)\Lavasoft\Web Companion\Application\Lavasoft.WCAssistant.WinService.exe"
+3856	WebCompanion.e	"C:\Program Files (x86)\Lavasoft\Web Companion\Application\WebCompanion.exe" --silent --update 
+3304	notepad.exe	"C:\Windows\system32\NOTEPAD.EXE" C:\Users\Rick\Desktop\Flag.txt.WINDOWS
+3916	cmd.exe	Required memory at 0x7fffffdd020 is not valid (process exited?)
+2420	conhost.exe	\??\C:\Windows\system32\conhost.exe
