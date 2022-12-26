@@ -62,9 +62,8 @@ cracking it does not seem to be possible
 https://security.stackexchange.com/a/113298
 -> "it seems more than likely that the hash, or password, will also be stored in memory. In fact, there are quite a few password crackers that take your password directly from memory."
 
-vol3 -f dump.vmem windows.lsadump
-
 ```
+$ vol3 -f dump.vmem windows.lsadump
 Volatility 3 Framework 2.4.1
 Progress:  100.00               PDB scanning finished                        
 Key     Secret  Hex
@@ -74,9 +73,24 @@ DPAPI_SYSTEM    ,6©Uá   àcL tcØ KEZä¼òw¥%?G
                                            åM¥È5ÏÜ      2c 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 01 00 00 00 36 9b ba a9 55 e1 92 82 09 e0 63 4c 20 74 63 14 9e d8 a0 4b 45 87 5a e4 bc f2 77 a5 25 3f 47 12 0b e5 4d a5 c8 35 cf dc 00 00 00 00
 ```
 
-Confirmed with: https://codebeautify.org/ntlm-hash-generator
+Password: ```MortyIsReallyAnOtter```
+
+Can be confirmed with: https://codebeautify.org/ntlm-hash-generator
 
 ## Step 3: Local network
+
+```
+vol3 -f dump.vmem windows.netscan
+```
+
+(see netscan.txt)
+
+ip: ```192.168.202.131```
+
+## Step 4: internet
+
+
+
 
 ## other
 
