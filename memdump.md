@@ -89,8 +89,40 @@ ip: ```192.168.202.131```
 
 ## Step 4: internet
 
+TODO
 
+## Step 5: The Process
 
+We can see running process with ```windows.cmdline``` (see cmdline.txt).
+
+```
+PID Process Args
+3820    Rick And Morty  "C:\Torrents\Rick And Morty season 1 download.exe" 
+```
+
+We can see "Rick And Morty" process, it was launched from the ```C:\Torrents\``` folder.
+
+We can assume that Rick tried to download the first season of the show, after it was downloaded he double-clicked to open it as a video but instead it ran as a program.
+
+We can get the binary using ```windows.dumpfiles --pid 3820``` (see dumpfiles/).
+
+We get a bunch of dll and 2 interesting files:
+```
+file.0xfa801b43dbc0.0xfa801a79c860.ImageSectionObject.Rick And Morty season 1 download.exe.img
+file.0xfa801b43dbc0.0xfa801b5a8d10.DataSectionObject.Rick And Morty season 1 download.exe.dat
+```
+
+Not sure why it gives us 2 files:
+- found it in 2 different places ?
+- one of the format has more debugging info ?
+
+It seems to come down to Windows internal stuff, which is pretty complicated 💩.
+
+Going to ignore it for now and assume there is no real difference.
+
+We can get the process's with ```windows.memmap --pid 3820 --dump```.
+
+## Step 6: The Malware
 
 ## other
 
