@@ -124,9 +124,18 @@ According to dnSpy the executable is not a .NET file.
 
 Can't open it with ILSpy either.
 
+There is a file on the desktop called ```READ_IT.txt```, it reads:
+```
+Your files have been encrypted.
+Read the Program for more information
+read program for more information.
+```
+
 Ran it with wine (see malware1.png, malware2.png, and malware3.png).
 
 It gave a bitcoin address: ```1MmpEmebJkqXG8nQv4cjJSmxZQFVmFo63M```
+
+It is clearly a ransomware.
 
 ## Step 7: The Root Cause
 
@@ -142,6 +151,8 @@ We can see other Rick and Morty episodes using ```vol3 -f dump.vmem windows.file
 ```
 
 The mkv files can't be played, maybe because they are encrypted.
+
+TODO: find the 2 flags mentionned in the subject.
 
 ## other
 
