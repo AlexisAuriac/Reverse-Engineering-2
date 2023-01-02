@@ -100,10 +100,6 @@ PID Process Args
 3820    Rick And Morty  "C:\Torrents\Rick And Morty season 1 download.exe" 
 ```
 
-We can see "Rick And Morty" process, it was launched from the ```C:\Torrents\``` folder.
-
-We can assume that Rick tried to download the first season of the show, after it was downloaded he double-clicked to open it as a video but instead it ran as a program.
-
 We can get the binary using ```windows.dumpfiles --pid 3820``` (see dumpfiles/).
 
 We get a bunch of dll and 2 interesting files:
@@ -124,6 +120,29 @@ We can get the process's with ```windows.memmap --pid 3820 --dump```.
 
 ## Step 6: The Malware
 
+According to dnSpy the executable is not a .NET file.
+
+Can't open it with ILSpy either.
+
+Ran it with wine (see malware1.png, malware2.png, and malware3.png).
+
+It gave a bitcoin address: ```1MmpEmebJkqXG8nQv4cjJSmxZQFVmFo63M```
+
+## Step 7: The Root Cause
+
+The malware is called "Rick And Morty season 1 download.exe" and is located in the ```C:\Torrents\``` folder.
+
+We can assume that Rick tried to download the first season of the show via BitTorrent, he expected the file to be a video so he double-clicked to open it but instead it ran as a program.
+
+We can see other Rick and Morty episodes using ```vol3 -f dump.vmem windows.filescan``` (see filescan.txt):
+```
+0x7d6b3a10  \Torrents\Rick and Morty - Season 3 (2017) [1080p]\Rick.and.Morty.S03E07.The.Ricklantis.Mixup.1080p.Amazon.WEB-DL.x264-Rapta.mkv    216
+0x7d7adb50  \Torrents\Rick and Morty - Season 3 (2017) [1080p]\Rick.and.Morty.S03E06.Rest.and.Ricklaxation.1080p.Amazon.WEB-DL.x264-Rapta.mkv   216
+0x7e5f5d10  \Torrents\Rick and Morty Season 2 [WEBRIP] [1080p] [HEVC]\[pseudo] Rick and Morty S02E03 Auto Erotic Assimilation [1080p] [h.265].mkv   216
+```
+
+The mkv files can't be played, maybe because they are encrypted.
+
 ## other
 
 from ```windows.cmdline```:
@@ -132,7 +151,7 @@ from ```windows.cmdline```:
 ```
 
 ```
-$vol3 -f dump.vmem windows.filescan
+$ vol3 -f dump.vmem windows.filescan
 ...
 0x7e410890  \Users\Rick\Desktop\Flag.txt    216
 0x7d660500  \Users\Rick\Desktop\READ_IT.txt 216
