@@ -128,12 +128,19 @@ We can get the process's with ```windows.memmap --pid 3820 --dump```.
 
 from ```windows.cmdline```:
 ```
-3820	Rick And Morty	"C:\Torrents\Rick And Morty season 1 download.exe" 
-```
-Rock accidentely downloaded an executable instead of a video
-
-from ```windows.cmdline```:
-```
 3304	notepad.exe	"C:\Windows\system32\NOTEPAD.EXE" C:\Users\Rick\Desktop\Flag.txt.WINDOWS
 ```
-See what was in the open file ?
+
+```
+$vol3 -f dump.vmem windows.filescan
+...
+0x7e410890  \Users\Rick\Desktop\Flag.txt    216
+0x7d660500  \Users\Rick\Desktop\READ_IT.txt 216
+...
+```
+
+```
+vol3 -f dump.vmem windows.dumpfiles --physaddr 0x7e410890
+```
+
+files are unreadable, probably because they are encrypted

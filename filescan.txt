@@ -1,0 +1,663 @@
+Volatility 3 Framework 2.4.1
+
+Offset	Name	Size
+
+0x7d402680	\Nexon\MapleStory\l3codeca.acm	216
+0x7d405270	\Users\Rick\AppData\Roaming\BitTorrent\dlimagecache\165F6EF40A81DD175FFAEA69E77ABFD30B27E71C	216
+0x7d607780	\ProgramData\Microsoft\Search\Data\Applications\Windows\Projects\SystemIndex\Indexer\CiFiles\00010001.dir	216
+0x7d60f2b0	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Extension Rules\MANIFEST-000001	216
+0x7d60f400	\Windows\winsxs\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.17514_none_72d18a4386696c80	216
+0x7d635510	\ProgramData\Microsoft\Search\Data\Applications\Windows\Projects\SystemIndex\Indexer\CiFiles\00010004.wsb	216
+0x7d635e80	\Windows\Fonts\mingliu.ttc	216
+0x7d637d20	\Windows\System32\catroot2\{127D0A1D-4EF2-11D1-8608-00C04FC295EE}\catdb	216
+0x7d63b650	\ProgramData\Microsoft\Search\Data\Applications\Windows\Projects\SystemIndex\SecStore\CiST0000.000	216
+0x7d63c600	\ProgramData\Microsoft\Search\Data\Applications\Windows\Projects\SystemIndex\SecStore\CiST0000.001	216
+0x7d63ec30	\Users\Rick\AppData\Local\Lavasoft\WebCompanion.exe_Url_siq0lwf3tzgxp2khfkllybk3idtbehng\4.3.1865.3518\user.configwcfg	216
+0x7d641070	\ProgramData\Microsoft\Search\Data\Applications\Windows\Projects\SystemIndex\Indexer\CiFiles\INDEX.000	216
+0x7d6423d0	\ProgramData\Microsoft\Search\Data\Applications\Windows\Projects\SystemIndex\Indexer\CiFiles\INDEX.002	216
+0x7d649480	\	216
+0x7d649e90	\ProgramData\Microsoft\Search\Data\Applications\Windows\Projects\SystemIndex\Indexer\CiFiles\00010001.wid	216
+0x7d6506d0	\Windows\winsxs\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2	216
+0x7d651070	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Extension Rules\CURRENT	216
+0x7d652200	\ProgramData\Microsoft\Search\Data\Applications\Windows\Projects\SystemIndex\Indexer\CiFiles\00010004.wid	216
+0x7d653b70	\ProgramData\Microsoft\Search\Data\Applications\Windows\Projects\SystemIndex\Indexer\CiFiles\00010005.dir	216
+0x7d65d2f0	\ProgramData\Microsoft\Search\Data\Applications\Windows\Projects\SystemIndex\Indexer\CiFiles\00010003.ci	216
+0x7d65d600	\ProgramData\Microsoft\Search\Data\Applications\Windows\Projects\SystemIndex\Indexer\CiFiles\00010003.wid	216
+0x7d65d7f0	\ProgramData\Microsoft\Search\Data\Applications\Windows\Projects\SystemIndex\Indexer\CiFiles\00010004.dir	216
+0x7d65ea80	\Windows\System32\config\systemprofile\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\EA618097E393409AFA316F0F87E2C202_B5D049703BF545D53C3EC408947E089F	216
+0x7d65ecd0	\Windows\winsxs\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2	216
+0x7d65ef20	\mojo.4076.3192.11761637087160215477	216
+0x7d660320	\Windows\winsxs\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2	216
+0x7d660500	\Users\Rick\Desktop\READ_IT.txt	216
+0x7d662d80	\MsFteWds	216
+0x7d6654c0	\Windows	216
+0x7d667070	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7d66d9d0	\BitTorrent_2836_00313D08_590648902	216
+0x7d677940	\AsyncConnectHlp	216
+0x7d677a90	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7d679070	\Users\Rick\AppData\LocalLow\BitTorrent\BitTorrent_2836_00313D08_590648902	216
+0x7d687520	\Windows\Microsoft.NET\Framework\v4.0.30319\sortdefault.nlp	216
+0x7d689200	\Windows\winsxs\Manifests\amd64_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.4940_none_88df89932faf0bf6.manifest	216
+0x7d68c330	\$ConvertToNonresident	216
+0x7d68c9d0	\mojo.4076.4080.14984992168350808406	216
+0x7d68d4c0	\Users\Rick\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData	216
+0x7d694490	\Windows\Microsoft.NET\Framework\v4.0.30319\Config\machine.config	216
+0x7d6964a0	\Windows\winsxs\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2	216
+0x7d696b90	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7d69a1d0	\Windows\SysWOW64	216
+0x7d6b3500	\Windows	216
+0x7d6b3a10	\Torrents\Rick and Morty - Season 3 (2017) [1080p]\Rick.and.Morty.S03E07.The.Ricklantis.Mixup.1080p.Amazon.WEB-DL.x264-Rapta.mkv	216
+0x7d6b5c80	\ProgramData\Microsoft\Windows Defender\Scans\History\CacheManager\MpSfc.bin	216
+0x7d6c2680	\Windows\winsxs\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2	216
+0x7d6c3070	\BitTorrent_2836_00313978_1933444659	216
+0x7d6c7470	\Windows\SysWOW64	216
+0x7d6cba20	\Users\Rick\AppData\Roaming\Microsoft\Windows\Start Menu	216
+0x7d6ccb30	\Windows	216
+0x7d6cce60	\Windows\Microsoft.NET\Framework\v2.0.50727\CONFIG\enterprisesec.config.cch	216
+0x7d6d8720	\BitTorrent_2836_00313978_1933444659	216
+0x7d6da6b0	\Windows\winsxs\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2	216
+0x7d6da800	\Users\Rick\AppData\LocalLow\BitTorrent\BitTorrent_2836_00313978_1933444659	216
+0x7d6e13e0	\Windows\assembly\GAC_32\mscorlib\2.0.0.0__b77a5c561934e089\sortkey.nlp	216
+0x7d6e3dd0	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7d6e5f20	\AsyncConnectHlp	216
+0x7d6ec340	\Windows\winsxs\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2	216
+0x7d6ecd20	\Windows\SysWOW64	216
+0x7d6ed380	\Windows\winsxs\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2	216
+0x7d6ed850	\Users\Rick\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\0DA515F703BB9B49479E8697ADB0B955_7DC3E633EDFAEFC3AA3C99552548EC2F	216
+0x7d6ff070	\Windows\System32\spool\drivers\color\sRGB Color Space Profile.icm	216
+0x7d7004f0	\elineoutwave	216
+0x7d700640	\Users\Rick\AppData\Local\Google\Chrome\User Data\Subresource Filter\Indexed Rules\20\7.54\Ruleset Data	216
+0x7d700b20	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7d7015e0	\mojo.4076.3192.8931089119637672273	216
+0x7d712f20	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7d717950	\Windows\System32\wfp\wfpdiag.etl	216
+0x7d71b610	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Extension Rules\LOCK	216
+0x7d71bd10	\Users\Rick\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned	216
+0x7d7272a0	\ProgramData\Lavasoft\Web Companion\Options\partner.txt	216
+0x7d731900	\ProgramData\Lavasoft\Web Companion\Options\LatestReleaseNotes.txt	216
+0x7d748a00	\Windows\winsxs\Manifests\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_5.82.7600.16385_en-us_ba5641d1849f93bc.manifest	216
+0x7d749420	\crashpad_4076_DAXLEIZKCFCTZZUS	216
+0x7d74c2d0	\Users\Rick\Desktop	216
+0x7d74dd30	\Windows\winsxs\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2	216
+0x7d757490	\Windows\System32\catroot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Microsoft-Windows-ICM-Package~31bf3856ad364e35~amd64~~6.1.7601.17514.cat	216
+0x7d757810	\Windows\winsxs\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.4940_none_d08cc06a442b34fc	216
+0x7d758d10	\ProgramData\Microsoft\Windows Defender\IMpService925A3ACA-C353-458A-AC8D-A7E5EB378092.lock	216
+0x7d762f20	\Users\Rick\AppData\Roaming\Microsoft\Crypto\RSA\S-1-5-21-1923827501-2510115606-422599235-1000\f84702e000b768c3eb589cfdb38d4468_8349e3fe-e027-4c9a-a69b-4865c51e6cb4	216
+0x7d764f20	\Windows\System32\catroot2\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\catdb	216
+0x7d765730	\Windows\winsxs\Manifests\amd64_microsoft.windows.isolationautomation_6595b64144ccf1df_1.0.0.0_none_ee2620cf57bc84de.manifest	216
+0x7d767dd0	\mojo.4076.3192.12275038428152206149	216
+0x7d76b6f0	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Login Data	216
+0x7d76d580	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\f_000178	216
+0x7d76d6d0	\Windows\System32\LogFiles\Scm\a6526975-348b-4fcf-83f9-3e139795156a	216
+0x7d7766d0	\Users\Rick\AppData\Roaming\Microsoft\Windows\Network Shortcuts	216
+0x7d7768e0	\Users\Rick\AppData\Local\Microsoft\Windows\Temporary Internet Files\Low\Content.IE5\6CYX5H6R\index[2].htm	216
+0x7d7adb50	\Torrents\Rick and Morty - Season 3 (2017) [1080p]\Rick.and.Morty.S03E06.Rest.and.Ricklaxation.1080p.Amazon.WEB-DL.x264-Rapta.mkv	216
+0x7d7b2820	\Windows\System32\config\systemprofile\AppData\Roaming\Microsoft\SystemCertificates\My	216
+0x7d7bea20	\Users\Rick\AppData\Roaming\Microsoft\Windows\Start Menu	216
+0x7d7bf640	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7d7c1730	\Torrents	216
+0x7d7c2bb0	\Nexon\MapleStory	216
+0x7d7c3d00	\Windows\System32\catroot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Microsoft-Windows-Foundation-Package~31bf3856ad364e35~amd64~~6.1.7601.17514.cat	216
+0x7d7c3e60	\Windows\SysWOW64\config\systemprofile\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\C46E7B0F942663A1EDC8D9D6D7869173_6043FC604A395E1485AF7AC16D16B7CE	216
+0x7d7c48a0	\Windows\System32\catroot2\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\catdb	216
+0x7d7c4c70	\	216
+0x7d7c4f20	\Users\Rick\AppData\Local\Microsoft\Windows\Temporary Internet Files\Low\Content.IE5\DA97XR9O\index[1].htm	216
+0x7d7c5690	\Windows\System32\catroot2\{127D0A1D-4EF2-11D1-8608-00C04FC295EE}\catdb	216
+0x7d7c62f0	\Windows\System32\catroot2\{127D0A1D-4EF2-11D1-8608-00C04FC295EE}\catdb	216
+0x7d7c92f0	\Windows\winsxs\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7601.17514_none_ec83dffa859149af	216
+0x7d7dca00	\Windows	216
+0x7d7dfd50	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7d7f8320	\Program Files (x86)\Google\Chrome\Application\68.0.3440.84\natives_blob.bin	216
+0x7d7f9070	\Users\Rick\AppData\Local\Temp\RarSFX0	216
+0x7d7f98c0	\Users\Rick\Desktop	216
+0x7d7faf20	\Users\Rick\AppData\Roaming\Microsoft\Windows\Cookies\rick@localhost[2].txt	216
+0x7d7fd910	\Windows\Fonts\simsun.ttc	216
+0x7d8084c0	\Windows\Fonts\msgothic.ttc	216
+0x7d8186a0	\System Volume Information\Syscache.hve.LOG1	216
+0x7d81b700	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7d82a920	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Network Action Predictor-journal	216
+0x7d82e800	\Windows\assembly\GAC_32\mscorlib\2.0.0.0__b77a5c561934e089\sortkey.nlp	216
+0x7d82f340	\Windows\AppPatch\sysmain.sdb	216
+0x7d835990	\Windows\winsxs\Manifests\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.7600.16385_en-us_581cd2bf5825dde9.manifest	216
+0x7d8361c0	\Windows\winsxs\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.4940_none_d08cc06a442b34fc	216
+0x7d837f20	\SystemRoot\System32\Config\TxR\{016888cc-6c6f-11de-8d1d-001e0bcde3ec}.TxR	216
+0x7d84c780	\srvsvc	216
+0x7d8557b0	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7d857a80	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7d861070	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7d862460	\Windows\winsxs\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7601.17514_none_ec83dffa859149af	216
+0x7d862850	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7d864250	\Users\Public\Desktop\desktop.ini	216
+0x7d8646d0	\Users\Rick\AppData\Local\Microsoft\Windows\Caches\cversions.1.db	216
+0x7d865380	\Windows\Microsoft.NET\Framework\v2.0.50727\CONFIG\security.config.cch	216
+0x7d865b00	\Windows\Microsoft.NET\Framework\v2.0.50727\CONFIG\enterprisesec.config.cch	216
+0x7d8813c0	\Users\Rick\Downloads\Rick And Morty season 1 download.exe.torrent	216
+0x7d8876d0	\Windows\System32\PerfStringBackup.INI	216
+0x7d88aad0	\Users\Rick\AppData\Local\Microsoft\Windows\Caches\{AFBF9F1A-8EE8-4C77-AF34-C647E37CA0D9}.1.ver0x0000000000000005.db	216
+0x7d8a9070	\Users\Rick\Desktop\desktop.ini	216
+0x7d8a9310	\Users\Public\desktop.ini	216
+0x7d8ab070	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7d8ac800	\Users\Public\Desktop	216
+0x7d8ac950	\Users\Public\Desktop	216
+0x7d8ad160	\Users\Rick\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\desktop.ini	216
+0x7d8afba0	\Program Files (x86)\desktop.ini	216
+0x7d8b0660	\Windows	216
+0x7d8b1e60	\ProgramData\Microsoft\Windows\Start Menu\desktop.ini	216
+0x7d8b2070	\Users\Rick\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\Google Chrome.lnk	216
+0x7d8b28e0	\Program Files\VMware\VMware Tools\suspend-vm-default.bat	216
+0x7d8b5340	\Users\Rick\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned\TaskBar\desktop.ini	216
+0x7d8b6070	\Windows\winsxs\x86_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.17514_none_72d18a4386696c80	216
+0x7d8b83a0	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7d8b99f0	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7d8c0d10	\Windows\winsxs\Manifests\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.4940_none_d08cc06a442b34fc.manifest	216
+0x7d8c26b0	\ProgramData\Microsoft\Windows\Start Menu	216
+0x7d8c2c30	\mojo.4076.4080.17218098848627920696	216
+0x7d8c3f20	\ProgramData\Microsoft\Windows\Start Menu	216
+0x7d8c5860	\Windows\winsxs\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251	216
+0x7d8c65f0	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7d8c6a70	\Windows\winsxs\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251	216
+0x7d8c7cb0	\Users\Rick\AppData\Local\Microsoft\Windows\Explorer\thumbcache_1024.db	216
+0x7d8d0170	\Windows\winsxs\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251	216
+0x7d8d0560	\Windows\winsxs\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251	216
+0x7d8d0c80	\Windows\winsxs\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251	216
+0x7d8d0f20	\Windows\winsxs\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251	216
+0x7d8d1dd0	\Windows\winsxs\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251	216
+0x7d8d2450	\Users\Rick\Pictures\desktop.ini	216
+0x7d8d6b30	\Windows\SysWOW64\config\systemprofile\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\1BA79029EC3FFD076F5DAC2F70A18685	216
+0x7d8d7450	\Windows\winsxs\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251	216
+0x7d8d76f0	\Windows\winsxs\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251	216
+0x7d8d7dd0	\Windows\winsxs\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251	216
+0x7d8d7f20	\Users\Rick\Searches\desktop.ini	216
+0x7d8d8560	\Users\Rick\Videos\desktop.ini	216
+0x7d8d86b0	\Users\Rick\Contacts\desktop.ini	216
+0x7d8d8800	\Windows\winsxs\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251	216
+0x7d8d8d40	\ProgramData\Microsoft\Windows\Caches\{40FC8D7D-05ED-4FEB-B03B-6C100659EF5C}.2.ver0x0000000000000001.db	216
+0x7d8d9070	\Windows\winsxs\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251	216
+0x7d8dae80	\Windows\inf\WmiApRpl\0009\WmiApRpl.ini	216
+0x7d8db810	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\f_000129	216
+0x7d8de310	\Windows\winsxs\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251	216
+0x7d8df070	\Users\Rick\Favorites\desktop.ini	216
+0x7d8e0cc0	\Users\Rick\AppData\Roaming\BitTorrent\dlimagecache\165F6EF40A81DD175FFAEA69E77ABFD30B27E71C	216
+0x7d8e1300	\Windows\winsxs\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251	216
+0x7d8e24f0	\Users\Public\Documents\desktop.ini	216
+0x7d8e2d10	\Program Files (x86)\Google\Chrome\Application\68.0.3440.84	216
+0x7d8e3070	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7d8e4c80	\Users\Rick\Documents\desktop.ini	216
+0x7d8e52d0	\ProgramData\Microsoft\Search\Data\Applications\Windows\Projects\SystemIndex\Indexer\CiFiles\00010005.ci	216
+0x7d8e5420	\ProgramData\Microsoft\Search\Data\Applications\Windows\Projects\SystemIndex\Indexer\CiFiles\00010005.wid	216
+0x7d8e63f0	\Windows\System32\catroot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Microsoft-Windows-Client-Features-Package~31bf3856ad364e35~amd64~~6.1.7601.17514.cat	216
+0x7d8e8070	\Users\Rick\Music\desktop.ini	216
+0x7d8e8c50	\Users\Rick\Downloads\desktop.ini	216
+0x7d8e9070	\Windows\winsxs\Manifests\x86_policy.8.0.microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.4940_none_516d712b0f495a45.manifest	216
+0x7d8e94c0	\Users\Rick\Saved Games\desktop.ini	216
+0x7d8e98e0	\Windows\winsxs\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251	216
+0x7d8e9b80	\Users\Rick\Links\desktop.ini	216
+0x7d8ee920	\Users\Rick\AppData\Local\Microsoft\Windows\Explorer\thumbcache_256.db	216
+0x7d8eea70	\Users\Rick\AppData\Local\Microsoft\Windows\Explorer\thumbcache_32.db	216
+0x7d8eebc0	\Users\Rick\AppData\Local\Microsoft\Windows\Explorer\thumbcache_idx.db	216
+0x7d8ef820	\Windows	216
+0x7d8f0070	\Windows\winsxs\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2	216
+0x7d8f09b0	\Users\Rick\AppData\Local\Microsoft\Windows\Explorer\thumbcache_96.db	216
+0x7d8f9490	\Users\Rick\AppData\Local\Microsoft\Windows\Explorer\thumbcache_sr.db	216
+0x7d8f9770	\Users\Rick\AppData\Local\Microsoft\Windows\Explorer\thumbcache_1024.db	216
+0x7d8fb410	\mojo.4076.3192.11761637087160215477	216
+0x7d8fb570	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7601.17514_none_a4d6a923711520a9	216
+0x7d8fcf20	\Windows\winsxs\amd64_microsoft.vc90.mfc_1fc8b3b9a1e18e3b_9.0.30729.6161_none_044aad0bab1eb146	216
+0x7d8fe700	\Windows\winsxs\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251	216
+0x7d901070	\Users\Rick\AppData\Local\Temp\RarSFX0	216
+0x7d902f20	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7d9034e0	\Users\Rick\AppData\Roaming\Microsoft\CLR Security Config\v2.0.50727.312\security.config.cch	216
+0x7d9058f0	\Windows\Microsoft.NET\Framework\v2.0.50727\CONFIG\machine.config	216
+0x7d906c00	\Users\Rick\AppData\Roaming\Microsoft\Windows\Recent	216
+0x7d9aa070	\Users\Rick\AppData\Local\Google\Chrome\User Data\Safe Browsing Cookies	216
+0x7d9bddd0	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7d9bf5f0	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7d9e31d0	\Users\Rick\AppData\Local\Microsoft\Windows\Burn	216
+0x7d9e7610	\ProgramData\Microsoft\Search\Data\Applications\Windows\Projects\SystemIndex\PropMap\CiPT0000.000	216
+0x7d9eb5d0	\mojo.4076.3192.7404302124319217711	216
+0x7da82520	\Windows\assembly\GAC_64\mscorlib\2.0.0.0__b77a5c561934e089\sorttbls.nlp	216
+0x7da8a710	\ProgramData\Microsoft\Search\Data\Applications\Windows\Projects\SystemIndex\Indexer\CiFiles\00010002.ci	216
+0x7da8ef20	\Windows\winsxs\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2	216
+0x7daa0070	\crashpad_4076_DAXLEIZKCFCTZZUS	216
+0x7daa7530	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7daad590	\Windows\winsxs\Manifests\amd64_microsoft.windows.i..utomation.proxystub_6595b64144ccf1df_1.0.7600.16385_none_556753b6a456f932.manifest	216
+0x7daadd90	\Windows\Microsoft.NET\Framework64\v2.0.50727\CONFIG\enterprisesec.config.cch	216
+0x7dab1b60	\Windows\Microsoft.NET\Framework64\v2.0.50727\CONFIG\security.config.cch	216
+0x7dab2c80	\Users\Rick\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations\1b4dd67f29cb1962.automaticDestinations-ms	216
+0x7dab4130	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\f_000026	216
+0x7dab49c0	\Windows\winsxs\Manifests\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7601.17514_none_a4d6a923711520a9.manifest	216
+0x7dab5990	\mojo.4076.3192.17194228384398903622	216
+0x7dab87d0	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\f_000005	216
+0x7dab8dd0	\Users\Rick\AppData\Roaming\BitTorrent\resume.dat.old	216
+0x7dac6f20	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7dac7410	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\History-journal	216
+0x7dac9d10	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7dad2c80	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7dae9350	\Users\Rick\AppData\Roaming\BitTorrent\Rick And Morty season 1 download.exe.1.torrent	216
+0x7daf1cd0	\Windows\winsxs\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.4940_none_d08cc06a442b34fc	216
+0x7dafa2b0	\Users\Rick\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content\B398B80134F72209547439DB21AB308D_9487BC0D4381A7CDEB9A8CC43F66D27C	216
+0x7dafef20	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\f_000108	216
+0x7db026b0	\mojo.4076.4080.17218098848627920696	216
+0x7db071f0	\Users\Rick\AppData\Local\Microsoft\Windows\UsrClass.dat{c29cbaa1-669a-11e8-8fb0-001a7dda7111}.TMContainer00000000000000000002.regtrans-ms	216
+0x7db077e0	\Device\HarddiskVolume1\Users\Rick\AppData\Local\Microsoft\Windows\UsrClass.dat{c29cbaa1-669a-11e8-8fb0-001a7dda7111}.TM	216
+0x7db07b50	\Users\Rick\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG1	216
+0x7db088b0	\Users\Rick\AppData\Local\Microsoft\Windows\UsrClass.dat.LOG2	216
+0x7db155d0	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\f_000135	216
+0x7db7c4d0	\Windows\winsxs\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.17514_none_2b24536c71ed437a	216
+0x7db7cc80	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7601.17514_none_a4d6a923711520a9	216
+0x7db83380	\Windows\winsxs\amd64_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.4940_none_88df89932faf0bf6	216
+0x7db90800	\Windows\System32\drivers\bthpan.sys	216
+0x7db9a420	\$ConvertToNonresident	216
+0x7db9cb60	\Windows\Microsoft.NET\Framework64\v4.0.30319\Config\machine.config	216
+0x7dba1f20	\Windows\System32\drivers\hdaudbus.sys	216
+0x7dba46c0	\Windows\System32\drivers\portcls.sys	216
+0x7dba4810	\Windows\System32\drivers\monitor.sys	216
+0x7dba4dd0	\Windows\System32\drivers\intelppm.sys	216
+0x7dba9dc0	\Users\Rick\AppData\Local\Microsoft\Credentials	216
+0x7dbc8b30	\Users\Rick\AppData\Roaming\Microsoft\Credentials	216
+0x7dbcb070	\Users\Rick\ntuser.dat.LOG1	216
+0x7dbcb220	\Users\Rick\ntuser.dat.LOG2	216
+0x7dbcd070	\Windows\winsxs\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251	216
+0x7dbcfdd0	\Users\desktop.ini	216
+0x7dbd1890	\Device\HarddiskVolume1\Users\Rick\AppData\Local\Microsoft\Windows\UsrClass.dat{c29cbaa1-669a-11e8-8fb0-001a7dda7111}.TM	216
+0x7dbd3c00	\Windows\winsxs\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.17514_none_2b24536c71ed437a	216
+0x7dbd44d0	\Windows\System32\timedate.cpl	216
+0x7dbd6550	\Users\Rick\AppData\Local\Temp\FXSAPIDebugLogFile.txt	216
+0x7dbeed50	\Windows\winsxs\Manifests\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2.manifest	216
+0x7dbf21c0	\Windows\SysWOW64	216
+0x7dbf5070	\Windows\SoftwareDistribution\DataStore\Logs\edb.chk	216
+0x7dc13b50	\Windows\System32\stdole2.tlb	216
+0x7dc15260	\Windows\winsxs\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251	216
+0x7dc16490	\Windows\winsxs\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251	216
+0x7dc30070	\ProgramData\Microsoft\Search\Data\Applications\Windows\Projects\SystemIndex\Indexer\CiFiles\00010007.ci	216
+0x7dc30c80	\Windows\winsxs\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251	216
+0x7dc43c80	\Windows\winsxs\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251	216
+0x7dc45680	\Windows\winsxs\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251	216
+0x7dc459e0	\Users\Rick\AppData\Local\Temp\scoped_dir4076_14616\CRX_INSTALL\cast_setup\devices.html	216
+0x7dc48bb0	\Windows\System32\drivers\ndis.sys	216
+0x7dc4baa0	\Winsock2\CatalogChangeListener-1f4-0	216
+0x7dc4d440	\Windows\SysWOW64\config\systemprofile\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\94308059B57B3142E455B38A6EB92015	216
+0x7dc51070	\Users\Rick\AppData\Roaming\Microsoft\Windows\Start Menu\desktop.ini	216
+0x7dc51a70	\Windows\winsxs\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251	216
+0x7dc54f20	\ProgramData\Microsoft\Windows\Start Menu\Programs\desktop.ini	216
+0x7dc653d0	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7dc678d0	\ProgramData\Microsoft\Windows\Caches\cversions.2.db	216
+0x7dc6b660	\Windows\winsxs\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251	216
+0x7dc7b970	\Users\Rick\AppData\Roaming\Microsoft\Windows\Start Menu\Programs\desktop.ini	216
+0x7dc895b0	\ProgramData\VMware\VMware VGAuth\logfile.txt.0	216
+0x7dc897d0	\Windows\System32\wbem\MOF	216
+0x7dc8c070	\Users\Rick\AppData\Local\Microsoft\Windows\Explorer\thumbcache_256.db	216
+0x7dc92f20	\Users\Rick\AppData\Local\Temp\scoped_dir4076_14616\CRX_INSTALL\cast_setup\setup.html	216
+0x7dc969e0	\Users\Rick\AppData\Local\Temp\scoped_dir4076_14616\CRX_INSTALL\cast_setup\cast_app_redirect.js	216
+0x7dc96b30	\Windows\winsxs\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251	216
+0x7dc9bb20	\Windows\winsxs\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251	216
+0x7dc9cf20	\Windows\winsxs\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251	216
+0x7dc9edd0	\Users\Rick\AppData\Local\Microsoft\Windows\Explorer\thumbcache_32.db	216
+0x7dca08f0	\mojo.4076.3192.7404302124319217711	216
+0x7dca0dd0	\Windows\winsxs\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251	216
+0x7dca1f20	\Users\Rick\AppData\Local\Microsoft\Windows\Explorer\thumbcache_idx.db	216
+0x7dcbbb50	\vgauth-service	216
+0x7dcd48e0	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Extension Rules\LOG	216
+0x7dcef6c0	\Windows\assembly\GAC_64\mscorlib\2.0.0.0__b77a5c561934e089\sortkey.nlp	216
+0x7dcf2cd0	\Windows\System32\config\systemprofile\AppData\Roaming\Microsoft\CLR Security Config\v2.0.50727.312\64bit\security.config.cch	216
+0x7dcfd2a0	\Windows\assembly\GAC_32\mscorlib\2.0.0.0__b77a5c561934e089\sorttbls.nlp	216
+0x7dd0bf20	\Users\Rick\AppData\Roaming\BitTorrent\maindoc.ico	216
+0x7dd0c4e0	\Users\Rick\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations\9b9cdc69c1c24e2b.automaticDestinations-ms	216
+0x7dd723f0	\Windows\System32\wbem\Repository\MAPPING3.MAP	216
+0x7dd73070	\Users\Rick\AppData\Local\Google\Chrome\User Data\lockfile	216
+0x7dd7e6a0	\Windows\System32\wbem\Repository\OBJECTS.DATA	216
+0x7dd7f720	\Windows\System32\wbem\Repository\MAPPING1.MAP	216
+0x7dd80e50	\Windows\System32\wbem\Repository\INDEX.BTR	216
+0x7ddbeea0	\Windows\Microsoft.NET\Framework\v2.0.50727\CONFIG\security.config.cch	216
+0x7ddc6070	\Users\Rick\AppData\Roaming\Microsoft\Windows\Network Shortcuts	216
+0x7ddc9890	\Winsock2\CatalogChangeListener-1ec-0	216
+0x7ddf0a20	\Program Files (x86)\Google\Chrome\Application\68.0.3440.84	216
+0x7de0c800	\epmapper	216
+0x7de0c950	\epmapper	216
+0x7de0cbf0	\epmapper	216
+0x7de0d1c0	\Winsock2\CatalogChangeListener-18c-0	216
+0x7de11350	\LSM_API_service	216
+0x7de11560	\LSM_API_service	216
+0x7de12aa0	\LSM_API_service	216
+0x7de16cd0	\Windows\winsxs\Manifests\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.7600.16385_en-us_106f9be843a9b4e3.manifest	216
+0x7de17da0	\Windows\ServiceProfiles\LocalService\NTUSER.DAT.LOG1	216
+0x7de18740	\Winsock2\CatalogChangeListener-328-0	216
+0x7de18b90	\Windows\ServiceProfiles\LocalService\NTUSER.DAT.LOG2	216
+0x7de19c50	\Windows\ServiceProfiles\LocalService\NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms	216
+0x7de1b220	\Windows\ServiceProfiles\LocalService\NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms	216
+0x7de1b680	\Windows\winsxs\Manifests\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac.manifest	216
+0x7de1bce0	\Device\HarddiskVolume1\Windows\ServiceProfiles\LocalService\NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM	216
+0x7de1e670	\Device\HarddiskVolume1\Windows\ServiceProfiles\LocalService\NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM	216
+0x7de39740	\Windows\System32\config\systemprofile\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\1BA79029EC3FFD076F5DAC2F70A18685	216
+0x7de41790	\eventlog	216
+0x7de41a30	\eventlog	216
+0x7de5f690	\Windows\WindowsShell.Manifest	216
+0x7de63a90	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Extension Rules\MANIFEST-000001	216
+0x7de64bb0	\$PrepareToShrinkFileSize	216
+0x7de65420	\$PrepareToShrinkFileSize	216
+0x7de69620	\Windows\System32\wbem\Performance\WmiApRpl.hew.h	216
+0x7de6c070	\elineouttopo	216
+0x7de6e5e0	\emicintopo	216
+0x7de76490	\Windows\SysWOW64\config\systemprofile\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\0DA515F703BB9B49479E8697ADB0B955_A026C9CD7BA14377D055F4A2325D4501	216
+0x7de77070	\Windows	216
+0x7de77b60	\elineoutwave	216
+0x7de79740	\Users\Rick\AppData\Local\Microsoft\Windows\Explorer\thumbcache_idx.db	216
+0x7de7e660	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\f_000067	216
+0x7de7e7d0	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\f_0000a7	216
+0x7de84ea0	\elineouttopo	216
+0x7de85a20	\emicinwave	216
+0x7de85c10	\emicintopo	216
+0x7de89070	\Windows\System32\config\systemprofile\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData	216
+0x7de8a810	\Windows\winsxs\x86_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.7600.16385_en-us_581cd2bf5825dde9	216
+0x7de8d9c0	\$ConvertToNonresident	216
+0x7de99330	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\f_000069	216
+0x7de9cf20	\PIPE_EVENTROOT\CIMV2SCM EVENT PROVIDER	216
+0x7de9d780	\lsass	216
+0x7de9df20	\Windows\CSC\v2.0.6\temp	216
+0x7deaef20		216
+0x7deaf880	\Windows\CSC\v2.0.6\namespace	216
+0x7deb4ad0	\$MapAttributeValue	216
+0x7deb7750		216
+0x7dec1070	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7dec3cc0	\Windows\inf\hdaudio.PNF	216
+0x7dee6b60	\Windows\System32\drivers\etc	216
+0x7deee610	\Windows\winsxs\amd64_microsoft.vc90.mfcloc_1fc8b3b9a1e18e3b_9.0.30729.6161_none_01c9581e60cbee58	216
+0x7df0d2c0	\Windows\Tasks\SCHEDLGU.TXT	216
+0x7df3c070	\Windows\Tasks	216
+0x7df3c370	\atsvc	216
+0x7df3c4c0	\atsvc	216
+0x7df3c760	\atsvc	216
+0x7df3ee00	\Winsock2\CatalogChangeListener-364-0	216
+0x7df42320	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7df5a350	\Windows\AppPatch\AppPatch64\sysmain.sdb	216
+0x7df5b070	\Windows\System32\config\systemprofile\AppData\Roaming\Microsoft\SystemCertificates\My	216
+0x7df8dbb0	\Windows\winsxs\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.4940_none_d08cc06a442b34fc	216
+0x7dfc4390	\Windows\winsxs\amd64_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.4940_none_88df89932faf0bf6	216
+0x7dfc8540	\wkssvc	216
+0x7dfc95d0	\Windows\winsxs\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251	216
+0x7dfd3dd0	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\f_000136	216
+0x7dfe2ea0	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7dfe5dd0	\Windows\winsxs\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251	216
+0x7dfe6560	\Users\Rick\AppData\Local\Microsoft\Windows\Explorer\thumbcache_96.db	216
+0x7dfe8600	\Windows\winsxs\amd64_microsoft.vc90.crt_1fc8b3b9a1e18e3b_9.0.30729.6161_none_08e61857a83bc251	216
+0x7dff1180	\Windows\System32\drivers\acpi.sys	216
+0x7dff12d0	\trkwks	216
+0x7dff4a10	\$PrepareToShrinkFileSize	216
+0x7dff5070	\Windows\System32\config\TxR\{016888cc-6c6f-11de-8d1d-001e0bcde3ec}.TxR.0.regtrans-ms	216
+0x7dffa070	\keysvc	216
+0x7dffbdd0	\keysvc	216
+0x7dffbf20	\keysvc	216
+0x7dffc7f0	\trkwks	216
+0x7dffd320	\Windows\assembly\GAC_32\mscorlib\2.0.0.0__b77a5c561934e089\sorttbls.nlp	216
+0x7e0055f0	\Windows\System32\catroot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\nt5.cat	216
+0x7e011a20	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\f_00005a	216
+0x7e0ef3a0	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\f_00012a	216
+0x7e0f2dd0	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Sync Extension Settings\pkedcjkdefgpdelpbcmbmeomcjbeemfm\MANIFEST-000001	216
+0x7e100410	\Windows\winsxs\amd64_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.4940_none_88df89932faf0bf6	216
+0x7e101cc0	\Windows\Media\Windows User Account Control.wav	216
+0x7e107300	\System Volume Information\Syscache.hve.LOG2	216
+0x7e10b070	\Windows\Fonts	216
+0x7e1176f0	\Users\Rick\AppData\Local\Microsoft\Windows\Burn	216
+0x7e117a90	\elineouttopo	216
+0x7e123d40	\Program Files (x86)\Google\Chrome\Application\68.0.3440.84	216
+0x7e1285b0	\Windows\winsxs\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.7600.16385_en-us_106f9be843a9b4e3	216
+0x7e128eb0	\Windows\SysWOW64	216
+0x7e14d3a0	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\f_00009f	216
+0x7e15a480	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Sync Data\LevelDB\MANIFEST-000001	216
+0x7e15c270	\Windows\win.ini	216
+0x7e15e230	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Service Worker\Database\MANIFEST-000001	216
+0x7e15ea80	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\f_00010d	216
+0x7e163070	\Windows\Microsoft.NET\Framework\v2.0.50727\csc.exe.config	216
+0x7e1642b0	\Windows\System32\config\SECURITY	216
+0x7e165f20	\Program Files\VMware\VMware Tools\suspend-vm-default.bat	216
+0x7e168f20	\Windows\System32\config\SECURITY.LOG1	216
+0x7e16b9e0	\Windows\System32\config\RegBack\SECURITY	216
+0x7e171070	\Windows\System32\config\systemprofile\AppData\Roaming\Microsoft\SystemCertificates\My	216
+0x7e179410	\Windows\winsxs\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7601.17514_none_ec83dffa859149af	216
+0x7e192070	\protected_storage	216
+0x7e1921e0	\scerpc	216
+0x7e192330	\protected_storage	216
+0x7e192c80	\scerpc	216
+0x7e192dd0	\scerpc	216
+0x7e192f20	\Windows\System32\config\SAM	216
+0x7e194840	\ProgramData\Microsoft\Search\Data\Applications\Windows\Projects\SystemIndex\Indexer\CiFiles\00010001.ci	216
+0x7e195390	\Windows\System32\config\SAM.LOG2	216
+0x7e195710	\Windows\System32\config\SAM.LOG1	216
+0x7e1958c0	\Windows\System32\config\RegBack\SAM	216
+0x7e19abe0	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\f_00012b	216
+0x7e1a12b0	\plugplay	216
+0x7e1a5140	\$ConvertToNonresident	216
+0x7e1b36c0	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7e1b42d0	\Users\Rick\AppData\Roaming\Microsoft\Windows\Libraries\desktop.ini	216
+0x7e1e2d10	\Windows\ServiceProfiles\NetworkService\NTUSER.DAT.LOG2	216
+0x7e1e3a90	\Device\HarddiskVolume1\Windows\ServiceProfiles\NetworkService\NTUSER.DAT{220535da-9502-11e8-a17d-806e6f6e6963}.TM	216
+0x7e1e3f20	\Device\HarddiskVolume1\Windows\ServiceProfiles\NetworkService\NTUSER.DAT{220535da-9502-11e8-a17d-806e6f6e6963}.TM	216
+0x7e1e49f0	\Windows\ServiceProfiles\NetworkService\NTUSER.DAT{220535da-9502-11e8-a17d-806e6f6e6963}.TMContainer00000000000000000002.regtrans-ms	216
+0x7e1ee470	\eventlog	216
+0x7e1faac0	\Winsock2\CatalogChangeListener-2c8-0	216
+0x7e404070	\mojo.4076.4080.8020609658211831185	216
+0x7e40aab0	\Torrents	216
+0x7e410420	\Windows\winsxs\x86_microsoft.windows.common-controls_6595b64144ccf1df_5.82.7601.17514_none_ec83dffa859149af	216
+0x7e410890	\Users\Rick\Desktop\Flag.txt	216
+0x7e414ab0	\Windows\System32\config\systemprofile\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\7B2238AACCEDC3F1FFE8E7EB5F575EC9	216
+0x7e414f20	\$ConvertToNonresident	216
+0x7e416320	\Program Files\desktop.ini	216
+0x7e417070	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\databases\Databases.db	216
+0x7e419bb0	\mojo.4076.3192.16698411741493707132	216
+0x7e422dd0	\Program Files (x86)\Google\Chrome\Application\68.0.3440.84	216
+0x7e422f20	\Program Files (x86)\Google\Chrome\Application\68.0.3440.84	216
+0x7e42d070	\Users\Rick\AppData\Local\Google\Chrome\User Data\en-US-8-0.bdic	216
+0x7e42f0f0	\Users\Rick\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content\0DA515F703BB9B49479E8697ADB0B955_7DC3E633EDFAEFC3AA3C99552548EC2F	216
+0x7e4346a0	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\f_000018	216
+0x7e446a20	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\f_00001c	216
+0x7e446dd0	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\File System\Origins\LOCK	216
+0x7e44d340	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\QuotaManager	216
+0x7e458150	\$ConvertToNonresident	216
+0x7e461f20	\Program Files (x86)\Google\Chrome\Application\68.0.3440.84	216
+0x7e468700	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\File System\Origins\MANIFEST-000001	216
+0x7e46be60	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Extension State\LOG	216
+0x7e471070	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Extension State\MANIFEST-000001	216
+0x7e49fc10	\srvsvc	216
+0x7e4cfb50	\$ConvertToNonresident	216
+0x7e4f4460	\Windows\winsxs\amd64_microsoft.windows.c..-controls.resources_6595b64144ccf1df_6.0.7600.16385_en-us_106f9be843a9b4e3	216
+0x7e4ff640	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Service Worker\ScriptCache\index-dir\the-real-i	216
+0x7e518a20	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\f_00009c	216
+0x7e51c070	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Extension State\LOCK	216
+0x7e51c9c0	\Windows\System32\wbem\Performance\WmiApRpl.ini.ini	216
+0x7e522d60	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\File System\Origins\LOG	216
+0x7e52f730	\Windows\SysWOW64\l3codeca.acm	216
+0x7e530320	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\f_00005d	216
+0x7e532da0	\Windows\winsxs\amd64_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.4940_none_88df89932faf0bf6	216
+0x7e59a990	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Session Storage\LOG	216
+0x7e59ebf0	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Session Storage\MANIFEST-000001	216
+0x7e5a2470	\Users\Rick\AppData\Local\Google\Chrome\User Data\Subresource Filter\Indexed Rules\20\scoped_dir4076_26702\LICENSE	216
+0x7e5a5d20	\Users\Rick\Links	216
+0x7e5af1d0	\Windows\System32\config\TxR\{016888cc-6c6f-11de-8d1d-001e0bcde3ec}.TxR.1.regtrans-ms	216
+0x7e5b4860	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Session Storage\000005.ldb	216
+0x7e5b4d50	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7e5b6f20	\ProgramData\Microsoft\Search\Data\Applications\Windows\Projects\SystemIndex\Indexer\CiFiles\00010007.dir	216
+0x7e5b7790	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Session Storage\000008.ldb	216
+0x7e5b8f20	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Session Storage\LOCK	216
+0x7e5b9f20	\mojo.4076.3192.940532788255752627	216
+0x7e5c52d0	\Users\Rick\AppData\Roaming\Microsoft\Windows\SendTo\Desktop.ini	216
+0x7e5c6360	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\IndexedDB\https_www.google.co.il_0.indexeddb.leveldb\LOG	216
+0x7e5ce260	\Windows	216
+0x7e5d5c00	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\f_000117	216
+0x7e5dc2c0	\Program Files (x86)\Google\Chrome\Application\68.0.3440.84	216
+0x7e5dc990	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\f_00001f	216
+0x7e6c6b40	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Web Data copy	216
+0x7e6e0c10	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Favicons-journal	216
+0x7e6e1d20	\mojo.4076.3192.17194228384398903622	216
+0x7e6ed810	\Users\Rick\AppData\Local\Google\Chrome\User Data\CrashpadMetrics-active.pma	216
+0x7e6ee8e0	\Users\Rick\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache\data_1	216
+0x7e6f4a20	\Windows\System32\drivers\etc	216
+0x7e6f6ea0	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Visited Links	216
+0x7e6f7300	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\f_00005c	216
+0x7e6fcea0	\mojo.4076.3192.15595213527859281055	216
+0x7e6fef20	\mojo.4076.3192.15595213527859281055	216
+0x7e701f20	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Sync Data\LevelDB\LOCK	216
+0x7e7089c0	\Users\Rick\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache\data_0	216
+0x7e70d120	\Users\Rick\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache\data_0	216
+0x7e70e310	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Favicons	216
+0x7e70edd0	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Web Data	216
+0x7e710420	\ProgramData\Lavasoft\Web Companion\Options\ServicePartnerInfo.txt	216
+0x7e7118d0	\Users\Rick\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache\index	216
+0x7e711a20	\Users\Rick\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache\index	216
+0x7e7129e0	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Network Action Predictor	216
+0x7e7133d0	\Users\Rick\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache\data_2	216
+0x7e713d50	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7e714300	\mojo.4076.3192.1858175958576792231	216
+0x7e714910	\Users\Rick\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache\data_1	216
+0x7e714c00	\Windows\System32\catroot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\ntpe.cat	216
+0x7e7158a0	\Users\Rick\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache\data_2	216
+0x7e717b50	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\f_000111	216
+0x7e717da0	\mojo.4076.3192.1858175958576792231	216
+0x7e718660	\Program Files (x86)\Google\Chrome\Application\68.0.3440.84	216
+0x7e71ada0	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Local Storage\leveldb\LOG	216
+0x7e71f5c0	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Web Data-journal	216
+0x7e71ff20	\Users\Rick\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache\data_3	216
+0x7e721910	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Sync Data\LevelDB\LOG	216
+0x7e721f20	\Users\Rick\AppData\Roaming\Microsoft\Windows\Libraries	216
+0x7e722b60	\Windows\assembly\GAC_64\mscorlib\2.0.0.0__b77a5c561934e089\sortkey.nlp	216
+0x7e7248c0	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\f_00005f	216
+0x7e726070	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\data_reduction_proxy_leveldb\MANIFEST-000018	216
+0x7e726530	\Windows\winsxs\x86_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.4940_none_d08cc06a442b34fc	216
+0x7e729930	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Download Service\EntryDB\LOCK	216
+0x7e72dc50	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\GPUCache\index	216
+0x7e72dda0	\Program Files (x86)\Google\Chrome\Application\68.0.3440.84	216
+0x7e72e3a0	\Users\Rick\AppData\Local\Google\Chrome\User Data\Safe Browsing Channel IDs	216
+0x7e72fb70	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\QuotaManager-journal	216
+0x7e72ff20	\ProgramData\Lavasoft\Web Companion\Options\Statistics.txt	216
+0x7e732800	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\GPUCache\data_0	216
+0x7e735070	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\f_000076	216
+0x7e7383f0	\Program Files (x86)\Google\Chrome\Application\68.0.3440.84\v8_context_snapshot.bin	216
+0x7e739070	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\index	216
+0x7e73a070	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\previews_opt_out.db	216
+0x7e73acc0	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Login Data-journal	216
+0x7e73b540	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7e73bcf0	\Windows\SysWOW64\config\systemprofile\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\B0B1E3C3B1330A269DBEE4BA6313E7B4	216
+0x7e73bf20	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\f_000113	216
+0x7e73cd10	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\data_0	216
+0x7e73f340	\ProgramData\Microsoft\Search\Data\Applications\Windows\Projects\SystemIndex\Indexer\CiFiles\00010007.wid	216
+0x7e741070	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Download Service\EntryDB\MANIFEST-000018	216
+0x7e741250	\Windows\winsxs\amd64_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.4940_none_88df89932faf0bf6	216
+0x7e7846e0	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Current Session	216
+0x7e78e070	\Program Files (x86)\Google\Chrome\Application\68.0.3440.84\v8_context_snapshot.bin	216
+0x7e78ee90	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\f_0000c8	216
+0x7e78fd00	\Program Files (x86)\Google\Chrome\Application\68.0.3440.84	216
+0x7e793940	\Users\Rick\AppData\Roaming\Microsoft\Windows\Recent\AutomaticDestinations\6e1adf45716efaa0.automaticDestinations-ms	216
+0x7e793a90	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7e7944c0	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\data_3	216
+0x7e79bf20	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cookies	216
+0x7e79f9e0	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\index	216
+0x7e7a0550	\srvsvc	216
+0x7e7a1410	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\f_0000ad	216
+0x7e7a1b20	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cookies-journal	216
+0x7e7a3b10	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\data_2	216
+0x7e7a3c60	\Windows\assembly\GAC_64\mscorlib\2.0.0.0__b77a5c561934e089\sorttbls.nlp	216
+0x7e7a62a0	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\data_1	216
+0x7e7a6700	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\data_0	216
+0x7e7a99a0	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\data_1	216
+0x7e7ad070	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\f_00010a	216
+0x7e7ae700	\Torrents\Rick and Morty Season 2 [WEBRIP] [1080p] [HEVC]\Sample\Screenshot 08.png	216
+0x7e7af470	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\f_000059	216
+0x7e7afb40	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\data_2	216
+0x7e7b0700	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\data_3	216
+0x7e7b0ae0	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Local Storage\leveldb\MANIFEST-000001	216
+0x7e7b0cc0	\lsass	216
+0x7e7b2d00	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\f_000073	216
+0x7e7b67c0	\Users\Rick\AppData\Roaming\Microsoft\SystemCertificates\My	216
+0x7e7ba070	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7e7ba200	\Program Files (x86)\Google\Chrome\Application\68.0.3440.84\natives_blob.bin	216
+0x7e7bab50	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\f_000128	216
+0x7e7baf20	\Program Files (x86)\Google\Chrome\Application\68.0.3440.84\v8_context_snapshot.bin	216
+0x7e7c8ce0	\System Volume Information\Syscache.hve	216
+0x7e7ca070	\Windows\inf\WmiApRpl\WmiApRpl.h	216
+0x7e7d1f20	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\f_00010f	216
+0x7e7d7320	\Users\Rick\AppData\Roaming\Microsoft\Crypto\RSA\S-1-5-21-1923827501-2510115606-422599235-1000\e61da45df0892cb2c319c554c0a2d2a5_8349e3fe-e027-4c9a-a69b-4865c51e6cb4	216
+0x7e7df750	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Cache\f_0000af	216
+0x7e7e0070	\Windows\winsxs\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2	216
+0x7e7ee070	\Windows\winsxs\Manifests\amd64_microsoft.windows.gdiplus_6595b64144ccf1df_1.1.7601.17514_none_2b24536c71ed437a.manifest	216
+0x7e7f0070	\Windows\winsxs\amd64_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.4940_none_88df89932faf0bf6	216
+0x7e7fca40	\Windows\System32\catroot\{F750E6C3-38EE-11D1-85E5-00C04FC295EE}\Microsoft-Media-Foundation-Package~31bf3856ad364e35~amd64~~6.1.7601.17514.cat	216
+0x7e8f2b10	\Users\Rick\AppData\Roaming\Microsoft\Windows\Printer Shortcuts	216
+0x7e8f5c80	\Windows\System32\drivers\etc\hosts	216
+0x7e8f7c00	\ProgramData\Lavasoft\Web Companion\Options\UpdateServer.txt	216
+0x7e9c22c0	\Windows\Microsoft.NET\Framework\v2.0.50727\CONFIG\security.config.cch	216
+0x7e9d7720	\$ConvertToNonresident	216
+0x7e9ef810	\ProgramData\Microsoft\Search\Data\Applications\Windows\Projects\SystemIndex\Indexer\CiFiles\00010006.dir	216
+0x7e9efbb0	\Windows\System32\config\systemprofile\AppData\LocalLow\Microsoft\CryptnetUrlCache\Content\94308059B57B3142E455B38A6EB92015	216
+0x7e9f0070	\Users\Rick\AppData\Local\Google\Chrome\User Data\ShaderCache\GPUCache\data_3	216
+0x7e9fbd00	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7ea6bd10	\Windows\Microsoft.NET\Framework64\v2.0.50727\CONFIG\security.config.cch	216
+0x7ea6cca0	\Windows\Microsoft.NET\Framework64\v2.0.50727\CONFIG\enterprisesec.config.cch	216
+0x7ea6e070	\Windows\assembly\GAC_64\mscorlib\2.0.0.0__b77a5c561934e089\sortkey.nlp	216
+0x7eaa25a0	\Windows\System32\config\DEFAULT.LOG1	216
+0x7eaac2c0	\Users\Rick\AppData\Roaming\Microsoft\Internet Explorer\Quick Launch\User Pinned	216
+0x7eab2240	\Users\Rick\AppData\Roaming\Microsoft\Windows\Recent\desktop.ini	216
+0x7eaba4e0	\Windows\System32\config\DEFAULT	216
+0x7eac27d0	\Windows\System32\config\DEFAULT.LOG2	216
+0x7eac5a40	\Windows\System32\config\RegBack\DEFAULT	216
+0x7ead7710	\Windows\winsxs\amd64_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.4940_none_88df89932faf0bf6	216
+0x7f2274c0	\ProgramData\Lavasoft\Web Companion\Options\config.txt	216
+0x7f22cf20	\Program Files (x86)\Google\Chrome\Application\68.0.3440.84\natives_blob.bin	216
+0x7f22d050	\Windows\System32\LogFiles\WMI\RtBackup\EtwRTMsMpPsSession7.etl	216
+0x7f23d8d0	\Windows\System32\config\SYSTEM.LOG1	216
+0x7f29bc50	\Windows\System32\wdi\LogFiles\WdiContextLog.etl.001	216
+0x7f29f870	\Users\Rick\AppData\Local\Google\Chrome\User Data\Safe Browsing Cookies-journal	216
+0x7f29fe60	\Users\Rick\AppData\Local\Microsoft\Windows\UsrClass.dat{c29cbaa1-669a-11e8-8fb0-001a7dda7111}.TMContainer00000000000000000001.regtrans-ms	216
+0x7f2a4f20	\Program Files (x86)\Google\Chrome\Application\68.0.3440.84	216
+0x7f2b7a20	\Windows\System32\config\TxR\{016888cd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms	216
+0x7f2b7ea0	\Windows\System32\config\TxR\{016888cd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms	216
+0x7f2bb8e0	\SystemRoot\System32\Config\TxR\{016888cd-6c6f-11de-8d1d-001e0bcde3ec}.TM	216
+0x7f2d0170	\Windows\System32\config\SECURITY.LOG2	216
+0x7f2d33a0	\Users\Rick\AppData\Roaming\BitTorrent\bittorrent.lng	216
+0x7f304970	\SystemRoot\System32\Config\TxR\{016888cd-6c6f-11de-8d1d-001e0bcde3ec}.TM	216
+0x7f4ab0e0	\Windows\System32\LogFiles\WMI\RtBackup\EtwRTDiagLog.etl	216
+0x7f4ab210	\Windows\System32\LogFiles\WMI\RtBackup\EtwRTEventLog-Application.etl	216
+0x7f53ff20	\System Volume Information\{df32777f-95bd-11e8-b1c5-001a7dda7111}{3808876b-c176-4e48-b7ae-04046e6cc752}	216
+0x7f544f20	\pagefile.sys	216
+0x7f5dbf20	\Users\Rick\AppData\Local\Google\Chrome\User Data\Default\Local Storage\leveldb\LOCK	216
+0x7f5f0280	\Windows\winsxs\Manifests\amd64_microsoft.windows.systemcompatible_6595b64144ccf1df_6.0.7600.16385_none_020095e6d39a70fd.manifest	216
+0x7f66a1b0	\Windows	216
+0x7f692190	\ProtectedPrefix\Administrators	216
+0x7f6922e0	\ProtectedPrefix\Administrators	216
+0x7f692430	\ProtectedPrefix	216
+0x7f692580	\ProtectedPrefix	216
+0x7f69cdd0	\ProtectedPrefix\LocalService	216
+0x7f6c49c0	\Windows\System32\config\SOFTWARE	216
+0x7f6ce5d0	\Windows\System32\config\SOFTWARE.LOG1	216
+0x7f9738e0	\Device\HarddiskVolume1\$Extend\$RmMetadata\$TxfLog\$TxfLog	216
+0x7f97d4e0	\Users\Rick\AppData\Local\Google\Chrome\User Data\Safe Browsing\IpMalware.store_new	216
+0x7f97fac0	\System Volume Information\{3808876b-c176-4e48-b7ae-04046e6cc752}	216
+0x7f981d00	\Windows\System32\config\RegBack\SOFTWARE	216
+0x7f983f20	\System Volume Information\{e03dc45d-981a-11e8-ab8a-001a7dda7111}{3808876b-c176-4e48-b7ae-04046e6cc752}	216
+0x7f9873b0	\System Volume Information\{df327762-95bd-11e8-b1c5-001a7dda7111}{3808876b-c176-4e48-b7ae-04046e6cc752}	216
+0x7f987ca0	\System Volume Information\{2bb43f84-8083-11e8-8b78-001a7dda7111}{3808876b-c176-4e48-b7ae-04046e6cc752}	216
+0x7f98ff20	\Windows\System32\drivers\lsi_sas.sys	216
+0x7f997650	\$Extend\$RmMetadata\$TxfLog\$TxfLogContainer00000000000000000001	216
+0x7f999f20	\$Extend\$RmMetadata\$TxfLog\$TxfLogContainer00000000000000000002	216
+0x7f99d2d0	\Device\HarddiskVolume1\$Extend\$RmMetadata\$TxfLog\$TxfLog	216
+0x7f99f330	\Device\HarddiskVolume1\$Extend\$RmMetadata\$TxfLog\$TxfLog	216
+0x7f9f92d0	\Windows\System32\drivers\mssmbios.sys	216
+0x7fb11070	\ProgramData\Microsoft\Search\Data\Applications\Windows\Projects\SystemIndex\Indexer\CiFiles\00010006.ci	216
+0x7fb22430	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7fbbf6a0	\Windows\AppCompat\Programs\RecentFileCache.bcf	216
+0x7fc024c0	\Windows\System32\7B296FB0-376B-497e-B012-9C450E1B7327-5P-0.C7483456-A289-439d-8115-601632D005A0	216
+0x7fc029c0	\Windows\System32\7B296FB0-376B-497e-B012-9C450E1B7327-5P-1.C7483456-A289-439d-8115-601632D005A0	216
+0x7fc06920	\Device\HarddiskVolume1\Users\Rick\NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM	216
+0x7fc07410	\Users\Rick\NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000002.regtrans-ms	216
+0x7fc07560	\Device\HarddiskVolume1\Users\Rick\NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TM	216
+0x7fc07dc0	\Users\Rick\NTUSER.DAT{016888bd-6c6f-11de-8d1d-001e0bcde3ec}.TMContainer00000000000000000001.regtrans-ms	216
+0x7fc45070	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7fc464f0	\Windows\winsxs\FileMaps\$$_system32_21f9a9c4a2f8b514.cdf-ms	216
+0x7fc4cb70	\Windows\SysWOW64	216
+0x7fc4d5b0	\Windows\winsxs\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_41e6975e2bd6f2b2	216
+0x7fc4d700	\Users\Rick\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\223DE96EE265046957A660ED7C9DD9E7_EFF9B9BA98DEAA773F261FA85A0B1771	216
+0x7fc4f650	\Windows\winsxs\amd64_microsoft.windows.common-controls_6595b64144ccf1df_6.0.7601.17514_none_fa396087175ac9ac	216
+0x7fc504c0	\Windows\System32\config\systemprofile\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\94308059B57B3142E455B38A6EB92015	216
+0x7fc524b0	\Users\Rick\AppData\Roaming\BitTorrent\dht_feed.dat.new	216
+0x7fc52d70	\Users\Rick\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\5457A8CE4B2A7499F8299A013B6E1C7C_CE50F893881D43DC0C815E4D80FAF2B4	216
+0x7fc53660	\Users\Rick\AppData\LocalLow\Microsoft\CryptnetUrlCache\MetaData\7423F88C7F265F0DEFC08EA88C3BDE45_D975BBA8033175C8D112023D8A7A8AD6	216
+0x7fc54ac0	\$ConvertToNonresident	216
+0x7fc567b0	\Windows\winsxs\amd64_microsoft.vc80.crt_1fc8b3b9a1e18e3b_8.0.50727.4940_none_88df89932faf0bf6	216
