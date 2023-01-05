@@ -89,7 +89,7 @@ ip: ```192.168.202.131```
 
 ## Step 4: internet
 
-TODO
+Ran malware with wireshark, did not notice any requests, including when it supposedly checks that the payment was received.
 
 ## Step 5: The Process
 
@@ -122,7 +122,9 @@ We can get the process's with ```windows.memmap --pid 3820 --dump```.
 
 According to dnSpy the executable is not a .NET file.
 
-Can't open it with ILSpy either.
+Can't open it with ILSpy either: ```PE file does not contain any managed metadata.```.
+
+[.NET Generic Unpacker](https://ntcore.com/?page_id=353) says it isn't a .NET.
 
 There is a file on the desktop called ```READ_IT.txt```, it reads:
 ```
@@ -153,6 +155,22 @@ We can see other Rick and Morty episodes using ```vol3 -f dump.vmem windows.file
 The mkv files can't be played, maybe because they are encrypted.
 
 TODO: find the 2 flags mentionned in the subject.
+
+## Step 8: The key
+
+The malware seems to encode everything in the desktop folder.
+
+Put a FLAG.txt file containing the string "test" and it was encoded to:
+```
+b'l\xe1~\x8f\x1a \x0bB\xb9}\xd3\xf6\xfb\x1a\x0e\xc4'
+hex: 6ce17e8f1a200b42b97dd3f6fb1a0ec4
+```
+
+could be useful for testing
+
+Encrypted file's size is always a multiple of 16.
+
+AES with block size 16 ?
 
 ## other
 
