@@ -1,6 +1,6 @@
 ## Step 1: computer name
 
-https://www.aldeid.com/wiki/Volatility/Retrieve-hostname
+([source](https://www.aldeid.com/wiki/Volatility/Retrieve-hostname))
 
 ```
 $ vol3 -f dump.vmem windows.registry.hivelist
@@ -37,10 +37,9 @@ computer name: ```WIN-LO6FAF3DTFE```
 
 ## Step 2: credentials
 
-pwd hash may still give half of the points
-hint: there are methods to get the plaintext hash without cracking it
+### Cracking
 
-https://www.aldeid.com/wiki/Volatility/Retrieve-password
+We can get the ntlm hash for the passwords ([source](https://www.aldeid.com/wiki/Volatility/Retrieve-password)).
 ```
 $ vol3 -f dump.vmem windows.hashdump
 Volatility 3 Framework 2.4.1
@@ -52,16 +51,23 @@ Guest   501     aad3b435b51404eeaad3b435b51404ee        31d6cfe0d16ae931b73c59d7
 Rick    1000    aad3b435b51404eeaad3b435b51404ee        518172d012f97d3a8fcc089615283940
 ```
 
-518172d012f97d3a8fcc089615283940 -> Rick's pwd
+```518172d012f97d3a8fcc089615283940``` -> Rick's pwd
 
-https://crackstation.net/ -> not found
-https://cyberloginit.com/2017/12/26/hashcat-ntlm-brute-force.html
+The lmhash is an empty string.
+
+Could not crack it using [crackstation](https://crackstation.net/) or [hashcat](https://cyberloginit.com/2017/12/26/hashcat-ntlm-brute-force.html).
 
 cracking it does not seem to be possible
 
-https://security.stackexchange.com/a/113298
--> "it seems more than likely that the hash, or password, will also be stored in memory. In fact, there are quite a few password crackers that take your password directly from memory."
+### LSA
 
+"it seems more than likely that the hash, or password, will also be stored in memory. In fact, there are quite a few password crackers that take your password directly from memory." - [source](https://security.stackexchange.com/a/113298)
+
+From ```volatility3 -h```:
+```
+ windows.lsadump.Lsadump
+                        Dumps lsa secrets from memory
+```
 ```
 $ vol3 -f dump.vmem windows.lsadump
 Volatility 3 Framework 2.4.1
@@ -75,7 +81,7 @@ DPAPI_SYSTEM    ,6©Uá   àcL tcØ KEZä¼òw¥%?G
 
 Password: ```MortyIsReallyAnOtter```
 
-Can be confirmed with: https://codebeautify.org/ntlm-hash-generator
+Can be confirmed by hashing it with ntlm ([ntlm hash generator](https://codebeautify.org/ntlm-hash-generator)).
 
 ## Step 3: Local network
 
@@ -85,110 +91,252 @@ vol3 -f dump.vmem windows.netscan
 
 (see netscan.txt)
 
-ip: ```192.168.202.131```
+Almost all the "LocalAddr" are either ```0.0.0.0```/```127.0.0.1``` (localhost) or ```192.168.202.131```.
+
+Rick's IP: ```192.168.202.131```
 
 ## Step 4: internet
 
+Did this step after step 7, so I already had the malware at this point.
+
+Neither ```Rick And Morty season 1 download.exe``` and ```vmware-tray.exe``` appear in the netscan.
+
 Ran malware with wireshark, did not notice any requests, including when it supposedly checks that the payment was received.
+
+This is also confirmed by decompiling ```vmware-tray.exe``` where we can see:
+```csharp
+private void button1_Click(object sender, EventArgs e)
+{
+    MessageBox.Show("Checking Payment.................Please Wait", "Please wait");
+    MessageBox.Show("Your Payment has failed, The funs have been sent back to your wallet. Please send it again", "Error");
+}
+```
 
 ## Step 5: The Process
 
-We can see running process with ```windows.cmdline``` (see cmdline.txt).
+We can see running processes with ```windows.pstree``` (see pstree.txt).
 
+2 processes seem suspicious:
+```
+PID     PPID    ImageFileName   Offset(V)       Threads Handles SessionId       Wow64   CreateTime      ExitTime
+* 3820  2728    Rick And Morty  0xfa801b486b30  4       185     1       True    2018-08-04 19:32:55.000000      N/A
+** 3720 3820    vmware-tray.ex  0xfa801a4c5b30  8       147     1       True    2018-08-04 19:33:02.000000      N/A
+```
+
+We can see where the name of the binaries with ```windows.cmdline``` (see cmdline.txt).
 ```
 PID Process Args
 3820    Rick And Morty  "C:\Torrents\Rick And Morty season 1 download.exe" 
+3720    vmware-tray.ex  "C:\Users\Rick\AppData\Local\Temp\RarSFX0\vmware-tray.exe" 
 ```
 
-We can get the binary using ```windows.dumpfiles --pid 3820``` (see dumpfiles/).
-
-We get a bunch of dll and 2 interesting files:
+We get the file addresses with ```windows.filescan``` (see filescan.txt):
 ```
-file.0xfa801b43dbc0.0xfa801a79c860.ImageSectionObject.Rick And Morty season 1 download.exe.img
-file.0xfa801b43dbc0.0xfa801b5a8d10.DataSectionObject.Rick And Morty season 1 download.exe.dat
+0x7e710070  \Torrents\Rick And Morty season 1 download.exe  216
+0x7daad840  \Users\Rick\AppData\Local\Temp\RarSFX0\vmware-tray.exe  216
 ```
 
-Not sure why it gives us 2 files:
+We can dump the files with ```windows.dumpfiles```:
+```
+$ vol3 -f dump.vmem windows.dumpfiles --physaddr 0x7e710070
+Cache   FileObject      FileName        Result
+
+DataSectionObject       0x7e710070      Rick And Morty season 1 download.exe    file.0x7e710070.0xfa801b5a8d10.DataSectionObject.Rick And Morty season 1 download.exe.dat
+ImageSectionObject      0x7e710070      Rick And Morty season 1 download.exe    file.0x7e710070.0xfa801a79c860.ImageSectionObject.Rick And Morty season 1 download.exe.img
+```
+```
+$ vol3 -f dump.vmem windows.dumpfiles --physaddr 0x7daad840
+Cache   FileObject      FileName        Result
+
+DataSectionObject       0x7daad840      vmware-tray.exe file.0x7daad840.0xfa801ab15890.DataSectionObject.vmware-tray.exe.dat
+ImageSectionObject      0x7daad840      vmware-tray.exe file.0x7daad840.0xfa801b494c30.ImageSectionObject.vmware-tray.exe.img
+```
+
+No idea why it gives us 2 files for each binary (they aren't identical), some ideas:
 - found it in 2 different places ?
 - one of the format has more debugging info ?
+- something to do with the fact it was running ?
 
 It seems to come down to Windows internal stuff, which is pretty complicated 💩.
 
-Going to ignore it for now and assume there is no real difference.
+Going to ignore it for now and assume there is no real difference for our purposes.
 
-We can get the process's with ```windows.memmap --pid 3820 --dump```.
+We can get the processes memory with ```windows.memmap --pid 3820 --dump``` (the dumps are not on the git because they are too large).
 
 ## Step 6: The Malware
 
-According to dnSpy the executable is not a .NET file.
+### Static analysis
 
-Can't open it with ILSpy either: ```PE file does not contain any managed metadata.```.
-
-[.NET Generic Unpacker](https://ntcore.com/?page_id=353) says it isn't a .NET.
-
-There is a file on the desktop called ```READ_IT.txt```, it reads:
+There is a file on Rick's desktop called ```READ_IT.txt```, it reads:
 ```
 Your files have been encrypted.
 Read the Program for more information
 read program for more information.
 ```
 
-Ran it with wine (see malware1.png, malware2.png, and malware3.png).
+The malware seems to take a part of it's memory and unarchive it at runtime, it saves the result to a temp file and executes it.
 
-It gave a bitcoin address: ```1MmpEmebJkqXG8nQv4cjJSmxZQFVmFo63M```
+The process runs under the name ```vmware-tray.ex``` (notice the ```.ex```).
 
-It is clearly a ransomware.
+Running strings on it shows these 2 strings:
+```
+Your Files are locked. They are locked because you downloaded something with this file in it.
+```
+```
+This is Ransomware. It locks your files until you pay for them. Before you ask, Yes we will
+give you your files back once you pay and our server confrim that you pay.
+```
+
+vmware-tray is a dotnet file and can be debugged with dnSpy.
+
+We can see that it starts by encrypting files using AES256 (CBC mode) with a randomly generated password.
+
+It then asks for 0.16 bitcoin to be sent to ```1MmpEmebJkqXG8nQv4cjJSmxZQFVmFo63M``` to decrypt the files.
+
+It doesn't actually check that the funds were received, and doesn't decrypt the files.
+
+### Dynamic analysis
+
+Ran the malware with wine, probably a bad idea but I was sick of staring at assembly 🤡.
+
+![screenshot_1](malware1.png)
+![screenshot_2](malware2.png)
+![screenshot_3](malware3.png)
+
+### Recap
+
+When ran ```Rick And Morty season 1 download.exe``` will unpack and run ```wmware-tray.ex```, which was hidden inside the binary.
+
+vmware-tray encrypts the users files.
+
+vmware-tray asks to send bitcoin to ```1MmpEmebJkqXG8nQv4cjJSmxZQFVmFo63M```.
+
+vmware-tray is a **ransomware**.
 
 ## Step 7: The Root Cause
 
 The malware is called "Rick And Morty season 1 download.exe" and is located in the ```C:\Torrents\``` folder.
 
-We can assume that Rick tried to download the first season of the show via BitTorrent, he expected the file to be a video so he double-clicked to open it but instead it ran as a program.
+We can assume that Rick tried to download the first season of the show via BitTorrent (which it still running).
 
-We can see other Rick and Morty episodes using ```vol3 -f dump.vmem windows.filescan``` (see filescan.txt):
+We can actually see other Rick and Morty episodes using ```vol3 -f dump.vmem windows.filescan``` (see filescan.txt):
 ```
 0x7d6b3a10  \Torrents\Rick and Morty - Season 3 (2017) [1080p]\Rick.and.Morty.S03E07.The.Ricklantis.Mixup.1080p.Amazon.WEB-DL.x264-Rapta.mkv    216
 0x7d7adb50  \Torrents\Rick and Morty - Season 3 (2017) [1080p]\Rick.and.Morty.S03E06.Rest.and.Ricklaxation.1080p.Amazon.WEB-DL.x264-Rapta.mkv   216
 0x7e5f5d10  \Torrents\Rick and Morty Season 2 [WEBRIP] [1080p] [HEVC]\[pseudo] Rick and Morty S02E03 Auto Erotic Assimilation [1080p] [h.265].mkv   216
 ```
 
-The mkv files can't be played, maybe because they are encrypted.
+He expected the file to be a video so he double-clicked to open it but instead it ran as a program.
 
-TODO: find the 2 flags mentionned in the subject.
+Did not find the 2 flags mentionned in the subject.
 
 ## Step 8: The key
 
-The malware seems to encode everything in the desktop folder.
+Looking at the ransomware code we can see that the key is randomly generated and is too complex to bruteforce.
 
-Put a FLAG.txt file containing the string "test" and it was encoded to:
-```
-b'l\xe1~\x8f\x1a \x0bB\xb9}\xd3\xf6\xfb\x1a\x0e\xc4'
-hex: 6ce17e8f1a200b42b97dd3f6fb1a0ec4
-```
-
-could be useful for testing
-
-Encrypted file's size is always a multiple of 16.
-
-AES with block size 16 ?
-
-## other
-
-from ```windows.cmdline```:
-```
-3304	notepad.exe	"C:\Windows\system32\NOTEPAD.EXE" C:\Users\Rick\Desktop\Flag.txt.WINDOWS
+It is then passed to the ```SendPassword``` function:
+```csharp
+public void SendPassword(string password)
+{
+    string text = string.Concat(new string[]
+    {
+        this.computerName,
+        "-",
+        this.userName,
+        " ",
+        password
+    });
+}
 ```
 
+It doesn't *actually* do anything but it can help us find the key in the memory dump since we know the compute name and username.
 ```
-$ vol3 -f dump.vmem windows.filescan
-...
-0x7e410890  \Users\Rick\Desktop\Flag.txt    216
-0x7d660500  \Users\Rick\Desktop\READ_IT.txt 216
-...
+$ strings -e l pid.3720.dmp | grep WIN-LO6FAF3DTFE-Rick 
+WIN-LO6FAF3DTFE-Rick aDOBofVYUNVnmp7
 ```
+(Note: ```-e l``` changes the encoding to UTF-16LE, used by Windows)
 
-```
-vol3 -f dump.vmem windows.dumpfiles --physaddr 0x7e410890
-```
+key: ```aDOBofVYUNVnmp7```
 
-files are unreadable, probably because they are encrypted
+## Step 9: The Best Rick Of Them All
+
+**NOT FINISHED**
+
+The file we are interested in is ```\Users\Rick\Desktop\Flag.txt```.
+
+Tried to reproduce the exact same algo that the ransomware used (based on ```EncryptFile``` and ```AES_Encrypt```), but I haven't been able to make it work (yet).
+
+```csharp
+using System.IO;
+using System.Linq;
+using System;
+using System.Security.Cryptography;
+using System.Text;
+
+class Program
+{
+    public static byte[] StringToByteArray(string hex)
+    {
+        return Enumerable.Range(0, hex.Length)
+                         .Where(x => x % 2 == 0)
+                         .Select(x => Convert.ToByte(hex.Substring(x, 2), 16))
+                         .ToArray();
+    }
+
+    public static void Main(string[] args)
+    {
+        byte[] bytesToBeEncrypted = Encoding.UTF8.GetBytes("test");
+        byte[] passwordBytes = Encoding.UTF8.GetBytes("aDOBofVYUNVnmp7");
+        passwordBytes = SHA256.Create().ComputeHash(passwordBytes);
+        Console.WriteLine(BitConverter.ToString(passwordBytes).Replace("-", ""));
+
+        byte[] result = null;
+        byte[] array = new byte[]
+        {
+                1,
+                2,
+                3,
+                4,
+                5,
+                6,
+                7,
+                8
+        };
+
+        using (MemoryStream memoryStream = new MemoryStream())
+        {
+            using (RijndaelManaged rijndaelManaged = new RijndaelManaged())
+            {
+                rijndaelManaged.KeySize = 256;
+                rijndaelManaged.BlockSize = 128;
+                Rfc2898DeriveBytes rfc2898DeriveBytes = new Rfc2898DeriveBytes(passwordBytes, array, 1000);
+                rijndaelManaged.Key = rfc2898DeriveBytes.GetBytes(rijndaelManaged.KeySize / 8);
+                rijndaelManaged.IV = rfc2898DeriveBytes.GetBytes(rijndaelManaged.BlockSize / 8);
+                rijndaelManaged.Mode = System.Security.Cryptography.CipherMode.CBC;
+                Console.WriteLine(BitConverter.ToString(rijndaelManaged.Key).Replace("-", ""));
+                Console.WriteLine(BitConverter.ToString(rijndaelManaged.IV).Replace("-", ""));
+
+                // using (CryptoStream cryptoStream = new CryptoStream(memoryStream, rijndaelManaged.CreateEncryptor(), System.Security.Cryptography.CryptoStreamMode.Write))
+                // {
+                //     cryptoStream.Write(bytesToBeEncrypted, 0, bytesToBeEncrypted.Length);
+                //     cryptoStream.Close();
+                // }
+                // result = memoryStream.ToArray();
+
+                result = StringToByteArray("6ce17e8f1a200b42b97dd3f6fb1a0ec4");
+                Console.WriteLine(BitConverter.ToString(result).Replace("-", ""));
+                using (MemoryStream ms = new MemoryStream())
+                {
+                    using (CryptoStream cryptoStream = new CryptoStream(ms, rijndaelManaged.CreateDecryptor(), System.Security.Cryptography.CryptoStreamMode.Write))
+                    {
+                        cryptoStream.Write(result, 0, result.Length);
+                        cryptoStream.FlushFinalBlock();
+                        string decrypted = Encoding.UTF8.GetString(ms.ToArray());
+                        Console.WriteLine(decrypted);
+                    }
+                }
+            }
+        }
+    }
+}
+```
