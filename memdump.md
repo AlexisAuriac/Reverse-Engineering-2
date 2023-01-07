@@ -189,6 +189,8 @@ give you your files back once you pay and our server confrim that you pay.
 
 vmware-tray is a dotnet file and can be debugged with dnSpy.
 
+Somethings are called "hidden-tear" in dnSpy, after searching "hidden-tear ransomware" on Google I found the [repo for the original ransomware](https://github.com/goliate/hidden-tear).
+
 We can see that it starts by encrypting files using AES256 (CBC mode) with a randomly generated password.
 
 It then asks for 0.16 bitcoin to be sent to ```1MmpEmebJkqXG8nQv4cjJSmxZQFVmFo63M``` to decrypt the files.
@@ -340,3 +342,5 @@ class Program
     }
 }
 ```
+
+I also tried to use the [hidden-tear-decrypter](https://github.com/goliate/hidden-tear/blob/7bdd6250c2c9ef0d2235698cfebe688b92598a54/hidden-tear-decrypter/hidden-tear-decrypter/Form1.cs#L41) I found on github, got the same result.
